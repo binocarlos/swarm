@@ -1,6 +1,6 @@
 package cluster
 
-import "github.com/samalba/dockerclient"
+import "github.com/binocarlos/dockerclient"
 
 // Event is exported
 type Event struct {

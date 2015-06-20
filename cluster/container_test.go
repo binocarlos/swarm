@@ -3,7 +3,7 @@ package cluster
 import (
 	"testing"
 
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 	"github.com/stretchr/testify/assert"
 )
 

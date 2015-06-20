@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/docker/docker/pkg/stringid"
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 )
 
 // Container is exported

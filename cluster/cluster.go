@@ -3,7 +3,7 @@ package cluster
 import (
 	"io"
 
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 )
 
 // Cluster is exported

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 )
 
 // SwarmLabelNamespace defines the key prefix in all custom labels

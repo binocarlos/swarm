@@ -13,7 +13,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/docker/docker/pkg/version"
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 )
 
 const (

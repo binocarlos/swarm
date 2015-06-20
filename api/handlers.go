@@ -16,7 +16,7 @@ import (
 	"github.com/docker/swarm/cluster"
 	"github.com/docker/swarm/version"
 	"github.com/gorilla/mux"
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 )
 
 // The Client API version
