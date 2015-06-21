@@ -11,6 +11,7 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/binocarlos/dockerclient"
 	"github.com/docker/swarm/cluster"
 	"github.com/docker/swarm/cluster/mesos/queue"
 	"github.com/docker/swarm/scheduler"
@@ -20,7 +21,6 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/mesos/mesos-go/mesosproto"
 	mesosscheduler "github.com/mesos/mesos-go/scheduler"
-	"github.com/samalba/dockerclient"
 )
 
 // Cluster struct for mesos

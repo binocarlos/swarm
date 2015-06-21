@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/binocarlos/dockerclient"
 	"github.com/docker/swarm/cluster"
 	"github.com/docker/swarm/scheduler/node"
-	"github.com/samalba/dockerclient"
 	"github.com/stretchr/testify/assert"
 )
 

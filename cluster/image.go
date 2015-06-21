@@ -3,7 +3,7 @@ package cluster
 import (
 	"strings"
 
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 )
 
 // Image is exported

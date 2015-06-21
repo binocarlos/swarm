@@ -10,6 +10,7 @@ import (
 	"sync"
 
 	log "github.com/Sirupsen/logrus"
+	"github.com/binocarlos/dockerclient"
 	"github.com/docker/docker/pkg/stringid"
 	"github.com/docker/docker/pkg/units"
 	"github.com/docker/swarm/cluster"
@@ -17,7 +18,6 @@ import (
 	"github.com/docker/swarm/scheduler"
 	"github.com/docker/swarm/scheduler/node"
 	"github.com/docker/swarm/state"
-	"github.com/samalba/dockerclient"
 )
 
 // Cluster is exported

@@ -6,9 +6,9 @@ import (
 	"io"
 	"testing"
 
+	"github.com/binocarlos/dockerclient"
+	"github.com/binocarlos/dockerclient/mockclient"
 	"github.com/docker/swarm/cluster"
-	"github.com/samalba/dockerclient"
-	"github.com/samalba/dockerclient/mockclient"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

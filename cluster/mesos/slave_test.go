@@ -3,9 +3,9 @@ package mesos
 import (
 	"testing"
 
+	"github.com/binocarlos/dockerclient"
 	"github.com/docker/swarm/cluster"
 	"github.com/mesos/mesos-go/mesosutil"
-	"github.com/samalba/dockerclient"
 	"github.com/stretchr/testify/assert"
 )
 

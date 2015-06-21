@@ -3,7 +3,7 @@ package mockclient
 import (
 	"io"
 
-	"github.com/samalba/dockerclient"
+	"github.com/binocarlos/dockerclient"
 	"github.com/stretchr/testify/mock"
 )
 

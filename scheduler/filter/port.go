@@ -3,9 +3,9 @@ package filter
 import (
 	"fmt"
 
+	"github.com/binocarlos/dockerclient"
 	"github.com/docker/swarm/cluster"
 	"github.com/docker/swarm/scheduler/node"
-	"github.com/samalba/dockerclient"
 )
 
 // PortFilter guarantees that, when scheduling a container binding a public
